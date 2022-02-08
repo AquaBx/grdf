@@ -20,8 +20,6 @@
         else if (str2 == undefined){
             return str1
         }
-        
-        console.log(str1,str2)
 
         let spl1 = last.split(" ")
         let val1 = spl1[3]
@@ -199,8 +197,8 @@
 </script>
 
 <svelte:head>
-    <title>Tom Chauvel</title>
-    <meta name="description" content="Site de Tom Chauvel / AquaBx, étudiant à l'ESIR à Rennes.">
+    <title>GRDF</title>
+    <meta name="description" content="">
 </svelte:head>
 
 <div id="out">

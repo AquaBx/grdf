@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%svelte.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="%svelte.assets%/manifest.json" />
+		<script type="module">
+			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+			const el = document.createElement('pwa-update');
+			document.body.appendChild(el);
+		 </script>
+		%svelte.head%		
+	</head>
+	<body class="bg-[#F6F5F5] dark:bg-[#2C2C2C] text-black dark:text-[#F6F5F5]">
+		<div>%svelte.body%</div>
+	</body>	
+</html>

@@ -9,7 +9,6 @@
   "short_name": "grdf",
   "start_url": "/",
   "theme_color": "#ffffff",
-  {
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
@@ -460,5 +459,4 @@
       "sizes": "1024x1024"
     }
   ]
-}
 }
